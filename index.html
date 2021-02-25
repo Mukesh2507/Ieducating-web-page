@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iEducate -Transforming online Education</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 33%;
+            border: 3px solid white;
+            border-radius: 30px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+
+
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white
+        }
+
+        .nav-list li a:hover {
+            color: maroon
+        }
+
+        .rightnav {
+
+            width: 30%;
+            text-align: right;
+            padding: 0 23px;
+        }
+
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid black;
+            border-radius: 22px;
+        }
+
+        .background {
+            background: rgba(0, 0, 0, 0.7) url(img/new1.jpg);
+            background-size: cover;
+            background-blend-mode: darken;
+        }
+
+        .firstSection {
+            height: 100vh;
+        }
+
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            max-width: 50%;
+            margin: auto;
+            height: 80%;
+        }
+
+        .firstHalf {
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .secondHalf {
+            width: 30%;
+        }
+
+        .secondHalf img {
+            width: 70%;
+            border: 4px solid white;
+            border-radius: 22px;
+            display: block;
+            margin: auto;
+
+        }
+
+        .text-big {
+            font-size: 41px;
+
+        }
+
+        .text-small {
+            font-size: 18px;
+            ;
+        }
+
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 3px;
+            border: 2px solid white;
+            font-size: 18px;
+            border-radius: 18px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+
+        .btn-dark {
+            color: 2px solid black;
+            border-radius: 8px;
+            width: 100px;
+            height: 50px;
+            font-size: 23px;
+        }
+
+        .section {
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 80%;
+            margin: auto;
+            font-family: cursive;
+            padding: 16px 0px;
+        }
+
+        .section-left {
+            flex-direction: row-reverse;
+            font-family: cursive;
+        }
+
+        .paras {
+            padding: 0px 65px
+        }
+
+        .sectionTag {
+            padding: 16px 0px;
+        }
+
+        .sectionSubtag {
+            font-family: cursive;
+        }
+
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+
+        .contact {
+            background-color: white;
+            height: 533px;
+        }
+
+        .text-centre {
+            padding: 30px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 35px;
+        }
+
+        .form {
+            max-width: 500px;
+            margin: 42px auto;
+        }
+
+        .form-input {
+            width: 100%;
+            font-size: 19px;
+            border: 2px solid grey;
+            border-radius: 6px;
+            margin: 14px 0px;
+            padding: 5px 3px;
+
+        }
+
+        .text-footer {
+            text-align: center;
+            padding: 34px 0px;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media only screen and(max-width: 1140px) {
+            .nav-list {
+                flex-direction: column;
+
+            }
+
+            .navbar {
+                flex-direction: column;
+            }
+
+            .rightnav {
+                text-align: center;
+            }
+
+            #search {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar background">
+
+        <ul class="nav-list another">
+            <div class="logo"><img src="img/new2.jpg" alt="logo"></div>
+            <li><a href="Home">Home</a></li>
+            <li><a href="About us">About us</a></li>
+            <li><a href="Services">Services</a></li>
+            <li><a href="Contact">Contact us</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="Search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">the future of education is here</p>
+                <p class="text-small">In this world of 7 billion people we need to iEducate
+                    all of them.this is the future of an educated world,the future of education
+                    is here and we are proud see that.
+                <div class="button">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Vedios</button>
+                </div>
+                </p>
+            </div>
+            <div class="secondHalf">
+                <img src="img/ne3.jpg" alt="Laptop img">
+            </div>
+        </div>
+
+    </section>
+    <section class="section">
+        <div class="paras">
+            <p class="sectionTag text-big">The end of your search is here</p>
+            <p class="sectionSubtag text-small">Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Officia cumque modi minima reiciendis ratione hic itaque deleniti optio cum expedita
+                rerum, excepturi id.
+                Quaerat iure repellendus quo, dolorem necessitatibus, a iste cumque unde ad deserunt,
+                eveniet iusto reiciendis quos delectus molestiae accusamus.
+                Ab quisquam accusamus sequi quia, nobis nam quis inventore aliquid alias tempore quas quos rem itaque,
+                numquam dolorem, maxime iure minus illum ratione deserunt repellat autem laborum.
+                Vero omnis consequatur voluptatem minima in dolorum expedita aperiam aliquid vel labore placeat,
+                saepe mollitia maiores soluta rerum architecto quaerat perferendis autem laboriosam ipsam. Assumenda
+                reiciendis facilis non minus architecto perspiciatis expedita, obcaecati, nemo consequuntur magni
+                debitis inventore vitae porro et culpa excepturi laudantium illo neque facere, nesciunt reprehenderit
+                esse sit hic! Vitae nesciunt quibusdam numquam adipisci officia dolore excepturi, repudiandae autem
+                accusamus aut illo dolores deserunt ab perferendis explicabo odit fugit natus repellat quas a, nihil
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?html,Apple" alt="Laptop img" class="imgFluid">
+        </div>
+    </section>
+    <section class="section-left">
+        <div class="paras">
+            <p class="sectionTag text-big">Transforming Education in india</p>
+            <p class="sectionSubtag text-small">Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Officia cumque modi minima reiciendis ratione hic itaque deleniti optio cum expedita
+                rerum, excepturi id.
+                Quaerat iure repellendus quo, dolorem necessitatibus, a iste cumque unde ad deserunt,
+                eveniet iusto reiciendis quos delectus molestiae accusamus.
+                Ab quisquam accusamus sequi quia, nobis nam quis inventore aliquid alias tempore quas quos rem itaque,
+                numquam dolorem, maxime iure minus illum ratione deserunt repellat autem laborum.
+                Vero omnis consequatur voluptatem minima in dolorum expedita aperiam aliquid vel labore placeat,
+                saepe mollitia maiores soluta rerum architecto quaerat perferendis autem laboriosam ipsam. Assumenda
+                   m quasi nemo. Dolorum laborum hic non earum totam explicabo
+               </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?coding,Apple" alt="Laptop img" class="imgFluid">
+        </div>
+    </section>
+    <section class="section">
+        <div class="paras">
+            <p class="sectionTag text-big">Let's Grow Together</p>
+            <p class="sectionSubtag text-small">Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Officia cumque modi minima reiciendis ratione hic itaque deleniti optio cum expedita
+                rerum, excepturi id.
+                Quaerat iure repellendus quo, dolorem necessitatibus, a iste cumque unde ad deserunt,
+                eveniet iusto reiciendis quos delectus molestiae accusamus.
+                Ab quisquam accusamus sequi quia, nobis nam quis inventore aliquid alias tempore quas quos rem itaque,
+                numquam dolorem, maxime iure minus illum ratione deserunt repellat autem laborum.
+                Vero omnis consequatur voluptatem minima in dolorum expedita aperiam aliquid vel labore placeat,
+                saepe mollitia maiores soluta rerum architecto quaerat perferendis autem laboriosam ipsam. Assumenda
+                reiciendis facilis non minus architecto perspiciatis expedita, obcaecati, nemo consequuntur magni
+                debitis inventore vitae porro et culpa excepturi laudantium illo neque facere, nesciunt reprehenderit
+                esse sit hic! Vitae nesciunt quibusdam numquam adipisci officia dolore excepturi, repudiandae autem
+                accusamus aut illo dolores deserunt ab perferendis explicabo odit fugit natus repellat quas a, nihil
+                voluptate cum. Accusantium pariatur architecto quas voluptas, maiores expedita, neque, ducimus culpa
+             </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?javascript,Apple" alt="Laptop img" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="contact">
+
+        <h2 class="text-centre">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="Phone" name="Phone" id="Phone" placeholder="Enter your Phone">
+            <input class="form-input" type="Emailt" name="Email" id="Email" placeholder="Enter your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                placeholder="Elaborate your concern"></textarea>
+            <button class="btn-dark">Submit</button>
+
+        </div>
+
+
+    </section>
+    <footer>
+        <p class="text-footer"></p>
+        copyright &copy;2020-All right reserved!
+    </footer>
+
+</body>
+
+</html>
